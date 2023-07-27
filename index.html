@@ -4,8 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst Website Landing Page</title>
+    <script src="https://kit.fontawesome.com/09356defa7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">    
+     <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif; 
+        }
+     </style>
 </head>
-<body>
-    
+<body class="font-lato">
+    <header>
+        <nav class="navbar flex bg-red-500 rounded-full container max-auto mt-12 ml-56 mr-56">
+            <div class="navbar-start flex">
+               <ul class="flex gap-7 text-white">
+                   <li><a>Home</a></li>
+                   <li><a>About Us</a></li>
+                   <li><a>Shop</a></li>
+                   <li><a>All Fruit</a></li>
+                </ul>
+           </div>
+           <div class="navbar-center">
+             <img src="..//Fruit-Burst-Website-Landing-Page/logo.png" alt="" srcset="">
+           </div>
+            <div class="navbar-end flex">
+              <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-full relative" />
+              <div class="absolute mr-3 ">
+                <i class="fa-solid fa-magnifying-glass" style="color: #746c6c;"></i>
+              </div>
+           </div>
+        </nav>
+        <nav class="container max-auto mt-14 ml-56 mr-56">
+            <div class="carousel w-full group">
+                <div id="slide1" class="carousel-item relative overflow-hidden w-full">
+                  <img src="..//Fruit-Burst-Website-Landing-Page/banner1.png" class="w-full" />
+                 <div class="absolute h-full w-full bg-black/20 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <h1 class="text-7xl text-white text-center">Exotic tastes at your<br>doorstep</h1>
+                    <p class="text-white mb-1">We supply highly quality organic products</p>
+                    <button class="bg-red-500 rounded-lg text-white px-5 py-5">Shop Now</button>
+                  </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="..//Fruit-Burst-Website-Landing-Page/banner2.png" class="w-full" />
+                  <div class="absolute h-full w-full bg-black/20 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <h1 class="text-7xl text-white text-center">Exotic tastes at your<br>doorstep</h1>
+                    <p class="text-white mb-1">We supply highly quality organic products</p>
+                    <button class="bg-red-500 rounded-lg text-white px-5 py-5">Shop Now</button>
+                  </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="..//Fruit-Burst-Website-Landing-Page/banner3.png" class="w-full" />
+                  <div class="absolute h-full w-full bg-black/20 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <h1 class="text-7xl text-white text-center">Exotic tastes at your<br>doorstep</h1>
+                    <p class="text-white mb-1">We supply highly quality organic products</p>
+                    <button class="bg-red-500 rounded-lg text-white px-5 py-5">Shop Now</button>
+                  </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="..//Fruit-Burst-Website-Landing-Page/banner4.png" class="w-full" />
+                  <div class="absolute h-full w-full bg-black/20 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <h1 class="text-7xl text-white text-center">Exotic tastes at your<br>doorstep</h1>
+                    <p class="text-white mb-1">We supply highly quality organic products</p>
+                    <button class="bg-red-500 rounded-lg text-white px-5 py-5">Shop Now</button>
+                  </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
